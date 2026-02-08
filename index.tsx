@@ -468,14 +468,16 @@ const App = () => {
   return (
     <div className="h-screen flex flex-col bg-[#f0f4f8] overflow-hidden" style={{ fontFamily: FONTS[font] }}>
       {/* Top Banner */}
-      <div className="bg-slate-950 text-white py-3 px-6 flex items-center justify-center gap-12 z-50 text-[14pt] font-black uppercase tracking-tight border-b border-white/10 whitespace-nowrap overflow-x-auto no-scrollbar shadow-lg">
-        <a href="https://3ha.in/r/358139" target="_blank" className="flex items-center gap-2.5 text-emerald-400 hover:text-emerald-300 transition-all hover:scale-105 transform">
+      <div className="bg-slate-950 text-white py-4 px-8 flex items-center justify-center gap-6 z-50 text-[14pt] font-black uppercase tracking-tight border-b border-white/10 whitespace-nowrap overflow-x-auto no-scrollbar shadow-2xl">
+        <a href="https://3ha.in/r/358139" target="_blank" className="flex items-center gap-3 text-emerald-400 hover:text-emerald-300 transition-all hover:scale-105 transform">
           <Plane className="w-5 h-5" /> 최저가 항공권
         </a>
-        <a href="https://kr.trip.com" target="_blank" className="flex items-center gap-2.5 text-sky-400 hover:text-sky-300 transition-all hover:scale-105 transform">
+        <ChevronRight className="w-4 h-4 text-white/20" />
+        <a href="https://kr.trip.com" target="_blank" className="flex items-center gap-3 text-sky-400 hover:text-sky-300 transition-all hover:scale-105 transform">
           <HotelIcon className="w-5 h-5" /> 숙소 15% 할인
         </a>
-        <a href="https://www.myrealtrip.com" target="_blank" className="flex items-center gap-2.5 text-amber-400 hover:text-amber-300 transition-all hover:scale-105 transform">
+        <ChevronRight className="w-4 h-4 text-white/20" />
+        <a href="https://www.myrealtrip.com" target="_blank" className="flex items-center gap-3 text-amber-400 hover:text-amber-300 transition-all hover:scale-105 transform">
           <Ticket className="w-5 h-5" /> 투어/액티비티 특가
         </a>
       </div>
