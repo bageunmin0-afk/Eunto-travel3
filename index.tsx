@@ -473,11 +473,11 @@ const App = () => {
           <Plane className="w-5 h-5" /> 최저가 항공권
         </a>
         <ChevronRight className="w-4 h-4 text-white/20" />
-        <a href="https://kr.trip.com" target="_blank" className="flex items-center gap-3 text-sky-400 hover:text-sky-300 transition-all hover:scale-105 transform">
+        <a href="https://3ha.in/r/358218" target="_blank" className="flex items-center gap-3 text-sky-400 hover:text-sky-300 transition-all hover:scale-105 transform">
           <HotelIcon className="w-5 h-5" /> 숙소 15% 할인
         </a>
         <ChevronRight className="w-4 h-4 text-white/20" />
-        <a href="https://www.myrealtrip.com" target="_blank" className="flex items-center gap-3 text-amber-400 hover:text-amber-300 transition-all hover:scale-105 transform">
+        <a href="https://3ha.in/r/358218" target="_blank" className="flex items-center gap-3 text-amber-400 hover:text-amber-300 transition-all hover:scale-105 transform">
           <Ticket className="w-5 h-5" /> 투어/액티비티 특가
         </a>
       </div>
