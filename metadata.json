@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Eunto Travel2",
+  "description": "An interactive travel itinerary visualizer that automatically wraps routes into an S-curve (snake path) every 5 items, allowing custom icons and labels.",
+  "requestFramePermissions": []
+}
